@@ -91,10 +91,13 @@ function App() {
   };
   return (
     <>
+    <div className='container'>
+    <h1>Task Manager</h1>
     <h2>Current Tasks</h2>
     <ul>{ tasksList(false)}</ul>
     <h2>Completed Tasks</h2>
     <ul>{ tasksList(true)}</ul>
+    </div>
     </>
   )
 };
